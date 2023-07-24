@@ -22,7 +22,7 @@ import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import com.google.gson.Gson;
 
 @RestController
-@RequestMapping("/b/")
+@RequestMapping("/a/")
 public class SampleController {
 	@Autowired(required = true)
 	ObjectMapper objectMapper;
