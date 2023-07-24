@@ -67,6 +67,7 @@ public class SampleController {
 		return responseEntity;
 	}
 
+	
 	@GetMapping(value = "convertXmltoJson")
 	public ResponseEntity<Model> callToController1(@RequestBody Model model)
 			throws JsonMappingException, JsonProcessingException {
